@@ -63,6 +63,8 @@ def leituraDados(f):
     linhas = int(shape[0])
     colunas = int(shape[1])
 
+    n_iteracoes = int(shape[2])
+
     if linhas != colunas : 
         print('A matriz esparça deve ser NxN.\n Por favor, verifique a entrada.\n')
         sys.exit()
@@ -105,4 +107,4 @@ def leituraDados(f):
     print('Lendo vetores b e x0\n')
     b,x0 = pegarVetores(f,linhas)
 
-    return A,b,x0
+    return A,b,x0,n_iteracoes
