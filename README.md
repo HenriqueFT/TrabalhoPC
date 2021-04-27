@@ -9,7 +9,7 @@ Resolução de problemas GMRes
 ## Como rodar o programa
 
 1. Entrar na pasta do projeto.
-2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra o comando os comandos:
+2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra os comandos:
    1. Linux:
       1. `pip install -r requirements.txt`
       2. `python main.py` ou `python3 main.py` (Caso já tenha uma versão de python anterior a 3 instalada)
