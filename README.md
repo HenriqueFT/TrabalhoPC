@@ -9,7 +9,9 @@ Resolução de problemas GMRes
 ## Como rodar o programa
 
 1. Entrar na pasta do projeto.
-2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra o comando o comando `python main.py`
+2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra o comando os comandos:
+   1. `pip install -r requirements.txt`
+   2. `python main.py` ou `python3 main.py` (Caso já tenha uma versão de python anterior a 3 instalada)
 3. Depois entre o nome do arquivo de texto que será utilizado como entrada. O projeto já vem com 2 exemplos (matriz.txt e matriz2.txt) o primeiro sendo o utilizado no exemplo pelo professor e o segundo sendo uma matriz não simétrica (ambas esparsas).
 
 ### Como criar sua própria entrada
