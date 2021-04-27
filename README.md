@@ -12,7 +12,7 @@ Resolução de problemas GMRes
 2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra o comando os comandos:
    1. `pip install -r requirements.txt`
    2. `python main.py` ou `python3 main.py` (Caso já tenha uma versão de python anterior a 3 instalada)
-3. Depois entre o nome do arquivo de texto que será utilizado como entrada. O projeto já vem com 2 exemplos (matriz.txt e matriz2.txt) o primeiro sendo o utilizado no exemplo pelo professor e o segundo sendo uma matriz não simétrica (ambas esparsas).
+3. Depois especifique o nome do arquivo de texto que será utilizado como entrada (`python main.py <nome_do_arquivo>`). O projeto já vem com 2 exemplos (matriz.txt e matriz2.txt) o primeiro sendo o utilizado no exemplo pelo professor e o segundo sendo uma matriz não simétrica (ambas esparsas).
 
 ### Como criar sua própria entrada
 
@@ -36,7 +36,7 @@ x\
 
 - Começamos com a número de linhas e colunas (NxN) da matriz, separados por 1 espaço (10 10)
 - Logo depois vem o número de iterações nas quais o programa passará (12).
-- Depois colocamos a matriz esparsa das dimenções dadas na primeira linha. Tendo o cuidado de separar cada número com 1 espaço, e quebrar linha seguindo o formato da matriz
+- Depois colocamos a matriz esparsa das dimensões dadas na primeira linha. Tendo o cuidado de separar cada número com 1 espaço, e quebrar linha seguindo o formato da matriz
 - Na linha abaixo colocamos o caracter 'b' sozinho, para na linha seguinte colocar um vetor de N números espaçados por 1 espaço.
 - Embaixo fazendo o mesmo colocando 'x' ou 'x0', seguido de outro vetor de N números esparsados por 1 espaço
 
