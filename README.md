@@ -10,12 +10,8 @@ Resolução de problemas GMRes
 
 1. Entrar na pasta do projeto.
 2. Tendo [python 3](https://www.python.org/downloads/) instalado se abre o terminal e entra os comandos:
-   1. Linux:
-      1. `pip install -r requirements.txt`
-      2. `python main.py` ou `python3 main.py` (Caso já tenha uma versão de python anterior a 3 instalada)
-   2. Windows:
-      1. `py -m pip install -r requirements.txt`
-      2. `py main.py`
+   1. `pip install -r requirements.txt`
+   2. `python main.py` ou `python3 main.py` (Caso já tenha uma versão de python anterior a 3 instalada)
 3. Depois especifique o nome do arquivo de texto que será utilizado como entrada. O projeto já vem com 2 exemplos (matriz.txt e matriz2.txt) o primeiro sendo o utilizado no exemplo pelo professor e o segundo sendo uma matriz não simétrica (ambas esparsas).
 
 ### Como criar sua própria entrada
