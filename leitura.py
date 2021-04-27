@@ -1,7 +1,6 @@
 import sys
 import numpy as np
 import scipy.sparse as sp
-import scipy.sparse.linalg as linalg
 
 #Pega os vetores b e x0 apartir do arquivo, e levanta erros.
 def pegarVetores(f,linhas):

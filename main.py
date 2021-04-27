@@ -1,5 +1,4 @@
 import warnings
-import numpy as np
 
 import gmres as g 
 import leitura as l
@@ -7,7 +6,7 @@ import time
 
 warnings.filterwarnings("ignore")
 
-'''
+
 filename = input("Por favor dê o nome do arquivo: ")
 
 try:
@@ -15,8 +14,6 @@ try:
 except: 
     print('Não foi encontrado o arquivo\nIremos utilizar o arquivo matrix.txt\n')
     f = open('matriz.txt', 'r')
-'''
-f = open('matriz2.txt', 'r')
 
 A, b, x0, n_iteracoes = l.leituraDados(f)
 

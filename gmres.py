@@ -1,5 +1,3 @@
-import warnings
-
 import numpy as np
 import scipy.sparse as sp
 import scipy.sparse.linalg as linalg
@@ -9,7 +7,7 @@ import pandas as pd
 # que podem ser retirados para ver o processo sendo feito aos poucos.
 # Se eh recomendado utilizar o modo debug para poder controlar a progressao do algoritmo eacompanhar.
 def print_m(matriz):
-    df =pd.DataFrame(matriz.toarray())
+    df = pd.DataFrame(matriz.toarray())
     print(df,'\n')
 
 # Aceita como input matrizes com 1 (vetor) ou 2 "coordenadas" (dimensoes)
